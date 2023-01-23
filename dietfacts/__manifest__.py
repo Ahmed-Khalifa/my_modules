@@ -6,10 +6,11 @@
     'author': 'Ahmed Khalifa',
     'website': 'aliaict.com',
     'license': 'LGPL-3',
-    # 'category': '',
+    'category': 'Uncategorized',
     'depends': [
         'sale','base'
     ],
+    'data': ['dietfacts_view.xml'],
     'auto_install': False,
     'application': False,
     'installable':True,
