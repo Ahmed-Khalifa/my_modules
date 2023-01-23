@@ -1,4 +1,3 @@
-#import dietfacts
 from odoo import models,fields
 
 # Extend product.template model with calories
