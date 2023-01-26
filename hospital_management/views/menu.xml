@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="model_name_menu"
+        name="Hostpital Management"
+        sequence="0"/>
+</odoo>
