@@ -1,6 +1,6 @@
 {
     'name': 'Hospital Management',
-    'version': '0.0.1', # Versioning model major.minor.patch-fix
+    'version': '0.0.1',  # Versioning model major.minor.patch-fix
     'description': 'Manage Hospital patients data',
     'summary': 'Manage Hospital patients data',
     'author': 'Ahmed Khalifa',
@@ -11,15 +11,16 @@
         'base'
     ],
     'data': [
-        'views/menu.xml'
+        'views/menu.xml',
+        'views/patient_view.xml'
     ],
     # 'demo': [
     #     ''
     # ],
     'auto_install': False,
     'application': True,
-    'sequence':-98,
+    'sequence': -98,
     # 'assets': {
-        
+
     # }
 }
