@@ -10,7 +10,10 @@
     'depends': [
         'sale','base'
     ],
-    'qweb': ['dietfacts_view.xml'],
+    'data': [
+        '',
+        'views/dietfacts_view.xml'
+        ],
     'application': True,
     'sequence':-1000,
     'auto_install': False,
