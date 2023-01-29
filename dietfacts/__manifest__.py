@@ -8,14 +8,13 @@
     'license': 'LGPL-3',
     'category': 'Uncategorized',
     'depends': [
-        'sale','base'
+        'sale', 'base'
     ],
     'data': [
-        '',
         'views/dietfacts_view.xml'
         ],
     'application': True,
-    'sequence':-1000,
+    'sequence': -1000,
     'auto_install': False,
-    'installable':True,
+    'installable': True,
 }
