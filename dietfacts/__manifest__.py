@@ -10,9 +10,9 @@
     'depends': [
         'sale', 'base'
     ],
-    'data': [
-        'views/dietfacts_view.xml'
-        ],
+    # 'data': [
+    #     'views/dietfacts_view.xml'
+    #     ],
     'application': True,
     'sequence': -1000,
     'auto_install': False,

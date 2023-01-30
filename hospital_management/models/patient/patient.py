@@ -2,10 +2,15 @@ from odoo import models, fields
 
 
 class HospitalPatient (models.Model):
-    _name = "hospital.patient"
-    _description = "Hospital Patient"
+    _name= "hospital.patient"
+    _description= "Hospital Patient"
 
-    age = fields.Integer("Age")
-    gender = fields.Selection([('male', 'Male'), ('female', 'Female')])
-    name = fields.Char("Name")
-    phone= fields.Text("Phone Number")
+    age= fields.Integer("Age")
+    gender= fields.Selection([('male', 'Male'), ('female', 'Female')])
+    name= fields.Char("Name")
+    phone= fields.Char("Phone Number")
+    bloodType= fields.Selection([
+                                 ('o_pos',"O+ ve"), ('o_neg','O- ve'),
+                                 ('a_pos','A+ ve'), ('a_neg','A- ve'),
+                                 ('ab_pos','AB+ve'), ('ab_neg','AB-ve'),
+                                 ])
