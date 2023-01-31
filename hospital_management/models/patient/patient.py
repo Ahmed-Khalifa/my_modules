@@ -10,7 +10,7 @@ class HospitalPatient (models.Model):
     name= fields.Char("Name")
     phone= fields.Char("Phone Number")
     bloodType= fields.Selection([
-                                 ('o_pos',"O+ ve"), ('o_neg','O- ve'),
-                                 ('a_pos','A+ ve'), ('a_neg','A- ve'),
-                                 ('ab_pos','AB+ve'), ('ab_neg','AB-ve'),
+                                 ('o_pos',"O +ve"), ('o_neg','O -ve'),
+                                 ('a_pos','A +ve'), ('a_neg','A -ve'),
+                                 ('ab_pos','AB +ve'), ('ab_neg','AB -ve'),
                                  ])

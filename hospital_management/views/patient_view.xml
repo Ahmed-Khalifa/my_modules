@@ -49,6 +49,20 @@
         </field>
     </record>
 
+    <record id="hospital_patient_search_view" model="ir.ui.view">
+        <field name="name">hospital.management.search.view</field>
+        <field name="model">hospital.patient</field>
+        <field name="arch" type="xml">
+            <search string="Patient Search View">
+                <field name="name" string="Patient Name" filter_domain="['|','|',('name','ilike',self),('phone','ilike',self),('age','ilike',self)]"/>
+                <field name="gender" />
+                <field name="age" />
+                <field name="phone" />
+                <field name="bloodType" />
+            </search>
+        </field>
+    </record>
+
     <record id="action_open_patients" model="ir.actions.act_window">
         <field name="name">Patients</field>
         <field name="res_model">hospital.patient</field>
