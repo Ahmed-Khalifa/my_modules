@@ -14,3 +14,4 @@ class HospitalPatient (models.Model):
                                  ('a_pos','A +ve'), ('a_neg','A -ve'),
                                  ('ab_pos','AB +ve'), ('ab_neg','AB -ve'),
                                  ])
+    active= fields.Boolean(string="Active",default=True)
