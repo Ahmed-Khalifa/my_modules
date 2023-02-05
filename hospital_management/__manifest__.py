@@ -8,7 +8,7 @@
     'license': 'LGPL-3',
     'category': 'Uncategorized',
     'depends': [
-        'base'
+        'base','mail'
     ],
     'data': [
         'security/ir.model.access.csv',
