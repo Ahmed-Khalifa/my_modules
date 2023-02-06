@@ -6,9 +6,9 @@ class HospitalPatient (models.Model):
     _inherit= ['mail.thread','mail.activity.mixin']
     _description= "Hospital Patient"
 
-    age= fields.Integer("Age")
-    gender= fields.Selection([('male', 'Male'), ('female', 'Female')])
-    name= fields.Char("Name")
+    age= fields.Integer("Age", tracking=True)
+    gender= fields.Selection([('male', 'Male'), ('female', 'Female')], tracking=True)
+    name= fields.Char("Name", tracking=True)
     phone= fields.Char("Phone Number")
     bloodType= fields.Selection([
                                  ('o_pos',"O +ve"), ('o_neg','O -ve'),
